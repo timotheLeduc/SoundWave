@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { useAudioVisual } from "../lib/audiotim"; // Assurez-vous d'importer correctement votre fonction useAudioVisual
+import logo from '../logo.svg';
 
 const AudioVisualizer = () => {
   const visualInfos = useAudioVisual();
